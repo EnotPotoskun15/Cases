@@ -1,3 +1,4 @@
+<!-- Начало описания активной картинки на баннере -->
 <td class="img <?=($bHasVideo ? 'with_video' : '');?>">
     <?if($bHasVideo):?>
         <div class="video_block">
@@ -12,7 +13,7 @@
             </a>
         <?endif;?>
     <?endif;?>
-
+<!-- Вставляем наш код перед закрывающим td-->
     <map name="soc">
         <area coords="684, 54, 840, 157" target="_blank" href="https://wa.me/..." alt="WhatsApp">
         <area coords="684, 157, 840, 244" href="https://t.me/..." alt="Telegram">
